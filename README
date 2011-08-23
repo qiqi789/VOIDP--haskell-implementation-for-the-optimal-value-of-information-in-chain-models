@@ -1,1 +1,15 @@
 VOIDP algorithm implemented in Haskell.
+
+
+To compile voidp.hs, 
+>  ghc --make -O2 voidp.hs -rtsopts -optl -llapack -lblas -fforce-recomp
+
+To run an example,
+>  voidp hmm_prior.txt hmm_transmat.txt hmm_obsmat.txt 24 7
+
+The hmm_prior.txt, hmm_transmat.txt and hmm_obsmat.txt describe a Hidden Markov Model, they stand for prior, transition and observation matrices, respectively. An example of them is given in the example folder. The following arguments are dimension (as 24 in the example above) and number of selections (as 7 in the example above).
+
+Under the DLL folder exists a Vodip DLL file, which can be called by C, C++, or C#. A tester C++ program file is in the example folder. After compile the Tester_voidp.cpp, you can run it as well like this:
+>  Tester_voidp hmm_prior.txt hmm_transmat.txt hmm_obsmat.txt 24 7
+
+
