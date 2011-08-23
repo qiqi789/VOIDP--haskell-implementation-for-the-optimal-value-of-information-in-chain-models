@@ -13,3 +13,12 @@ Under the DLL folder exists a Vodip DLL file, which can be called by C, C++, or 
 >  Tester_voidp hmm_prior.txt hmm_transmat.txt hmm_obsmat.txt 24 7
 
 
+References:
+
+Andreas Krause and Carlos Guestrin. 2009. Optimal value of information in graphical models. J. Artif. Int. Res. 35, 1 (July 2009), 557-591. 
+
+
+Qi Qi; Yi Shang; Hongchi Shi; , "An improved algorithm for optimal subset selection in chain graphical models," Evolutionary Computation (CEC), 2010 IEEE Congress on , vol., no., pp.1-6, 18-23 July 2010
+doi: 10.1109/CEC.2010.5586022
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5586022&isnumber=5585910
+
